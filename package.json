@@ -1,0 +1,27 @@
+{
+  "name": "kss-node-material",
+  "version": "0.0.0",
+  "description": "The Twig.js & Material builder for kss-node.",
+  "main": "builder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "./node_modules/.bin/node-sass --output-style compressed kss-assets/kss.scss kss-assets/kss.css"
+  },
+  "author": {
+    "name": "Rafał Wolak",
+    "email": "r.wolak@design4.pro",
+    "url": "https://www.design4.pro"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/design4pro/atomic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/design4pro/kss-node-material/issues/"
+  },
+  "homepage": "https://github.com/design4pro/kss-node-material#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

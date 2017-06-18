@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+// Project colors
+//
+// Layout and UI generic colors
+//
+// Colors:
+// $sg-color-base:         #4c4d4e - text color
+// $sg-color-base-lighten: #e7e7e7 - lighten version
+// $sg-color-secondary:    #b7b7b7 - secondary text color
+// $sg-color-tertiary:     #878787 - tertiary text color
+// $sg-color-links:        #0091aa - links color
+// $sg-color-highlight:    #cc190f - highlighted text color
+// $sg-color-borders:      #c7c7c7 - borders color
+// $sg-color-footer:       #73a0d6 - footer color
+// $sg-color-bg-base:      #f8f8f8 - background color
+//
+// Style guide: Settings.Colors.Project
+$sg-color-base: #4c4d4e !default;
+$sg-color-base-lighten: #e7e7e7 !default;
+$sg-color-primary: #44638a !default;
+$sg-color-secondary: #b7b7b7 !default;
+$sg-color-tertiary: #878787 !default;
+$sg-color-links: #0091aa !default;
+$sg-color-highlight: #cc190f !default;
+$sg-color-borders: #c7c7c7 !default;
+$sg-color-footer: #73a0d6 !default;
+$sg-color-bg-base: #f8f8f8 !default;
+
+// Alerts colors
+//
+// Colors for alerts messages.
+//
+// Colors:
+// $sg-color-info:    #0b4892 - Info
+// $sg-color-success: #48930b - Success
+// $sg-color-warning: #D49711 - Warning
+// $sg-color-error:   #cc190f - Error
+//
+// Style guide: Settings.Colors.Alerts
+$sg-color-info: #0b4892 !default;
+$sg-color-success: #3c7a09 !default;
+$sg-color-warning: #B05105 !default;
+$sg-color-error: #cc190f !default;
+
+
+// Black & White
+//
+// Universal real black and white
+//
+// Colors:
+// $sg-color-black: #000 - default text color
+// $sg-color-white: #fff - background color
+//
+// Style guide: Settings.Colors.BnW
+$sg-color-black: #000 !default;
+$sg-color-white: #fff !default;
+
+// Theme colors
+//
+// The color palette is based upon 20mn editorial color chart:
+// - each editorial section has a related color
+// - we use section names as aliases to define color variables and classes names
+//
+// Colors:
+// $sg-color-default: #0b4892
+//
+// Style guide: Settings.Colors.Theme
+$sg-color-default: #0b4892 !default;
+
+// Fonts
+//
+// All fonts in the project are set within variables.
+//
+// ```
+// $sg-font-base: 'Helvetica Neue', Helvetica, Arial, sans-serif  // default font / body text
+// $sg-font-headings: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif  // headings
+// $sg-font-secondary: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif // call to action, pagers... etc
+// $sg-font-icon: '20mn' // icon font
+// ```
+//
+// Style guide: Settings.Fonts
+$sg-font-base: 'Helvetica Neue', Helvetica, Arial, sans-serif !default; // default font / body text
+$sg-font-headings: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif !default; // headings
+$sg-font-secondary: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif !default; // article label, call to action, pagers... etc.
+$sg-font-icon: '20mn' !default; // icon font

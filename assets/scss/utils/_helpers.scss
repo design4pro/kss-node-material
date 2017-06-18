@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+// Helpers
+//
+// Style guide Utils.Helpers
+
+%clearfix {
+    &:after {
+        content: '';
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
+.clearfix {
+    @extend %clearfix;
+}

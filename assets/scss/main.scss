@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/**
+ * Atomic Style Guide
+ *
+ * @author Tom&Co
+ */
+
+// Atomic
+@import "../../../build/atomic";
+
+// Settings
+//
+// Style guide settings
+//
+// Weight: 1
+//
+// Style guide: Settings
+@import "settings";
+
+// Utils
+//
+// Weight: 4
+//
+// Style guide: Utils
+@import "utils/mixins";
+@import "utils/helpers";
+
+// Components
+//
+// Weight: 3
+//
+// Style guide: Components
+@import "components/navbar";
+
+// Base
+//
+// Weight: 2
+//
+// Style guide: Base
+@import "base/body";
+@import "base/page";
+@import "base/print";
+@import "base/typography";
